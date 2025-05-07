@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  background-color: #d6d6d6;
+  border-radius: 10px;
+  width: 32%;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
