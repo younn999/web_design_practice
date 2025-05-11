@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo img {
+  display: block; /* 없어도 똑같던데 왜 굳이? */
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+li:not(:last-child){
+  margin-right: 50px;
+}
+
+li a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #111;
+  line-height: 1.6;
+}
+
+li a span {
+  color: #5b8f8f;
+  font-size: 13px;
+}
